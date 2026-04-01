@@ -1,5 +1,5 @@
 ---
-name: dream
+name: memory-dream
 description: "Memory consolidation for OpenClaw agents. Periodically reviews daily memory files (memory/*.md), extracts durable knowledge, and merges it into MEMORY.md — like a human brain consolidating memories during sleep. Triggers: dream, 做梦, consolidate memory, 整理记忆, memory consolidation. Can also run via Cron for automatic nightly consolidation."
 ---
 

@@ -30,7 +30,7 @@ clawhub install memory-dream
 **方式 B：从 GitHub 安装**
 
 ```bash
-git clone https://github.com/wavmson/openclaw-skill-dream.git ~/.openclaw/skills/dream
+git clone https://github.com/wavmson/openclaw-skill-memory-dream.git ~/.openclaw/skills/dream
 ```
 
 **方式 C：只复制核心文件**
@@ -38,7 +38,7 @@ git clone https://github.com/wavmson/openclaw-skill-dream.git ~/.openclaw/skills
 ```bash
 mkdir -p ~/.openclaw/skills/dream
 curl -o ~/.openclaw/skills/dream/SKILL.md \
-  https://raw.githubusercontent.com/wavmson/openclaw-skill-dream/main/SKILL.md
+  https://raw.githubusercontent.com/wavmson/openclaw-skill-memory-dream/main/SKILL.md
 ```
 
 安装后重启 Gateway：`openclaw gateway restart`
@@ -108,12 +108,12 @@ clawhub install memory-dream
 
 ```bash
 # Clone to your OpenClaw skills directory
-git clone https://github.com/wavmson/openclaw-skill-dream.git ~/.openclaw/skills/dream
+git clone https://github.com/wavmson/openclaw-skill-memory-dream.git ~/.openclaw/skills/dream
 
 # Or just copy the SKILL.md file
 mkdir -p ~/.openclaw/skills/dream
 curl -o ~/.openclaw/skills/dream/SKILL.md \
-  https://raw.githubusercontent.com/wavmson/openclaw-skill-dream/main/SKILL.md
+  https://raw.githubusercontent.com/wavmson/openclaw-skill-memory-dream/main/SKILL.md
 ```
 
 **Option C: Copy-Paste**
