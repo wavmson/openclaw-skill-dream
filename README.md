@@ -2,7 +2,7 @@
 
 > Like a human brain consolidating memories during sleep, Dream periodically reviews your agent's daily notes and merges durable knowledge into long-term memory.
 
-**Inspired by Claude Code's `autoDream` module** — adapted for [OpenClaw](https://github.com/openclaw/openclaw) agents.
+**Memory consolidation for [OpenClaw](https://github.com/openclaw/openclaw) agents** — like REM sleep for your AI.
 
 ---
 
@@ -172,13 +172,13 @@ curl -o ~/.openclaw/skills/dream/SKILL.md \
 
 ---
 
-## Background: Claude Code's autoDream
+## Background: Memory Consolidation
 
-This skill is inspired by the `autoDream` module found in Claude Code's source:
+This skill implements a memory consolidation pattern commonly used in advanced AI agent systems:
 
 ```
-src/services/autoDream/
-├── autoDream.ts              # Main consolidation orchestrator
+memory-dream/
+├── SKILL.md                  # Main consolidation orchestrator
 ├── config.ts                 # Feature flag & settings
 ├── consolidationLock.ts      # Prevents concurrent runs
 └── consolidationPrompt.ts    # The "dream" prompt template

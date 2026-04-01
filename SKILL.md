@@ -5,7 +5,7 @@ description: "Memory consolidation for OpenClaw agents. Periodically reviews dai
 
 # Dream — Memory Consolidation for OpenClaw
 
-Inspired by Claude Code's `autoDream` module. Your agent accumulates daily notes in `memory/YYYY-MM-DD.md` files, but without periodic consolidation, long-term memory (`MEMORY.md`) becomes stale while daily files grow endlessly. Dream fixes this.
+Memory consolidation for OpenClaw agents. Your agent accumulates daily notes in `memory/YYYY-MM-DD.md` files, but without periodic consolidation, long-term memory (`MEMORY.md`) becomes stale while daily files grow endlessly. Dream fixes this — like REM sleep for your AI.
 
 ## When to Use
 
